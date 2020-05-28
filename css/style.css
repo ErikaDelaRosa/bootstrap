@@ -5,7 +5,16 @@
 body{
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightslategray;
+    background-color: rgb(154, 180, 207);
+    margin: 3px black solid;
+    border:3rem;
+    padding: 3rem;
+}
+
+.dropdown {
+    display: flex;
+    align-self: flex-end;
+    align-items: flex-end;
 }
 #dropdownMenuButton{
     background-color: darkcyan;
